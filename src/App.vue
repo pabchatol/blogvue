@@ -1,13 +1,14 @@
 
 <template>
+  <RouterView /> 
   <header>
     <div class="wrapper">
-      <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About1111222233333</RouterLink>
-      </nav>
+      <Nav/>
     </div>
   </header>
 
-   <RouterView /> 
+ 
 </template>
+<script setup>
+import Nav from './components/Nav.vue';
+</script>
