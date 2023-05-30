@@ -1,0 +1,1 @@
+import{o as e,c as a,a as s,F as t,b as c,_ as o}from"./index-e5e49db6.js";const r=c("h1",null,"prueba vue",-1),m={__name:"abc",setup(_){return(n,l)=>(e(),a(t,null,[s(o),r],64))}};export{m as default};
